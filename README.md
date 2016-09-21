@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+//: CHAPTER 3_CONTROL FLOW__przepływ kontroli działania programu ustala czy (if) program powinien wykonać zadanie
 
 //import UIKit
 
