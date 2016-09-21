@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+//: CHAPTER 4__ARRAY__Tablice
 
 import UIKit
 
@@ -125,3 +125,5 @@ if pustaTablica.isEmpty
 {
 print("PustaTablica jest pusta")
 }
+
+
