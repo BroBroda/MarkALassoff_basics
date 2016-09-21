@@ -1,8 +1,8 @@
-//: Playground - noun: a place where people can play
+//: CHAPTER 5__FUNKCJE__18 september 2016
 
 import UIKit
 
-//Wywoływanie funkcji_18 september 2016
+//Wywoływanie funkcji:
 
 func sayHello()
 {
