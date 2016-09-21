@@ -1,6 +1,3 @@
-# MarkALassoff_basics
-Basics of Swift language created by Mark A Lassoff
-
 //: Playground - noun: a place where people can play
 
 import UIKit
