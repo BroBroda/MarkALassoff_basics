@@ -1,7 +1,7 @@
 //# MarkALassoff_basics
 //Basics of Swift language created by Mark A Lassoff
 
-//: Playground - noun: a place where people can play
+//: CHAPTER 2__VARS AND CONS__Zmienne
 
 import Cocoa
 
