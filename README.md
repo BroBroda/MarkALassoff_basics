@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+//import UIKit
 
 //UIKIt jest odpowiedzilane za połączenie z systemem iOS
 //import Cocoa - to biblioteka OS X
