@@ -1,4 +1,5 @@
-//: Playground - noun: a place where people can play
+//: CHAPTER 3__LOOPS__Pętle
+
 
 import UIKit
 
@@ -119,3 +120,5 @@ for Hej in names
 //print("Siema \(Hej)!")
 print("Yo " + Hej + "!")
 }
+
+
