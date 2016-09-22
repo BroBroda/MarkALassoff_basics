@@ -1,33 +1,33 @@
 //: CHAPTER 3__LOOPS__Pętle
 
 
-import UIKit
+//import UIKit
 
 //Zuzanna_30 august 2016_SLA_Lab3
 
-var age = 23
+var age2 = 23
 
-if age > 59
+if age2 > 59
 {
 print("To nie koniec życia! Chyba")
 }
-else if age > 49
+else if age2 > 49
 {
 print("To najprawdopodobniej najbardziej satysfakcjonujący okres w Twoim życiu. Ciesz się rodziną i przyjaciółi!")
 }
-else if age > 39
+else if age2 > 39
 {
 print("Najlepsza pora, aby zacąć myśleć o emeryturze. Zacznij odkładać hajs")
 }
-else if age > 29
+else if age2 > 29
 {
 print("Rozwijaj karierę, oszczędzaj. Czas na dzieci i nudne życie")
 }
-else if age > 19
+else if age2 > 19
 {
 print("Ucz się bo nauka to potęgi klucz, czy jakoś tak")
 }
-else if age > 11
+else if age2 > 11
 {
 print("Nastolatkiem jest sie raz w życiu. Zrób wypasiona osiemnastkę")
 }
@@ -37,9 +37,9 @@ print("Jesteś dzieckiem! Baw się dobrze")
 }
 
 
-var age2: Int = 57
+var age3: Int = 57
 
-switch age2
+switch age3
 {
 case 60...130:
     print("Nie jesteś stary, po prostu głupi")
