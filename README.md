@@ -1,6 +1,6 @@
 //: CHAPTER 3_CONTROL FLOW__przepływ kontroli działania programu ustala czy (if) program powinien wykonać zadanie
 
-//import UIKit
+
 
 //UIKIt jest odpowiedzilane za połączenie z systemem iOS
 //import Cocoa - to biblioteka OS X
