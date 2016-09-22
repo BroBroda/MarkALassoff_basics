@@ -36,8 +36,8 @@ else
 print("Sędzia kaaalosz")
 }
 
-var gpa = 3.0
-if gpa < 3.0
+var gpa_2 = 3.0
+if gpa_2 < 3.0
 {print("Otrzymałeś oceną słabsza od dobrej")}
 else
 {print("Otrzymałeś ocenę co najmniej dobrą")}
@@ -47,9 +47,9 @@ else
 //MoreComplexConditionals_27 August (złożone konstrukcje warunkowe ziom)
 
 var citizen: Bool = true
-var age:Int = 17
+var age2:Int = 17
 
-if citizen == true && age >= 18
+if citizen == true && age2 >= 18
 {
     print("Możesz głosować Panie Dorosły")
 } else
