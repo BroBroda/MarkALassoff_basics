@@ -88,19 +88,67 @@ func myfunc()
 
 myfunc()
 /*  print("Zmienna funcVar wewnątrz funkcji: \(funcVar)")
+ 
     Próba uzyskania dostępu do zmiennej funcVar  na zawnątrz funckji kończy się błędem
     bo jest to zmienna O ZASIĘGU LOKALNYM   */
-
+print()
 
 func twoNumbers(numA: Int, numB: Int)
 {
-    print("\(numA)  \(numB)")
+    print("\(numA) \(numB)")
 }
 twoNumbers(4, numB: 9)
 
+//print("\(numA)  \(numB)")     - argumenty funkci maja zasięg LOKALNY a nie GLOBALNY ziom
 
 
 
+
+//Funkcje zagnieżdżone = f. zadeklarowana w bloku innej funkcji
+
+func nested(i: Int, j:Int)
+{
+    func printAnswer(answer:Int)
+    {
+        print("\(answer)")
+    }
+    
+    var sum = i + j
+    printAnswer(sum)
+}
+
+nested(5, j: 6)
+
+print()
+
+//Ćwiczenia_23/09/2016_SLA_Lab5
+
+/*
+func mojaFunkcja(rows:Int , columns:Int) -> String
+{
+    let gwiazda = ["osioł"]
+    return gwiazda[0]
+    print(gwiazda[0])
+}
+mojaFunkcja(3, columns: 5)
+*/
+
+
+let gwiazdy = ["*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*"]
+
+for k in gwiazdy
+{
+    print(gwiazdy)
+}
+
+
+
+
+let animals = ["kot", "pies", "ryba"]
+for zwierzak in animals
+{
+    print(animals)
+}
 
 
 
