@@ -1,5 +1,6 @@
 //: CHAPTER 5__FUNKCJE__18 september 2016
 
+
 import UIKit
 
 //Wywoływanie funkcji_18 september 2016
@@ -131,25 +132,22 @@ func mojaFunkcja(rows:Int , columns:Int) -> String
     print(gwiazda[0])
 }
 mojaFunkcja(3, columns: 5)
+
+
+
+let gwiazdy = ["*", "*", "*", "*"]
+
+for rows in gwiazdy
+{
+    print(rows)
+}
 */
+var rows = 3
+var columns = 1
+let gwiazdy = ["*", "*", "*", "*"]
 
 
-let gwiazdy = ["*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*", "*"]
-
-for k in gwiazdy
-{
-    print(gwiazdy)
-}
-
-
-
-
-let animals = ["kot", "pies", "ryba"]
-for zwierzak in animals
-{
-    print(animals)
-}
-
+print(gwiazdy[columns])
 
 
 
