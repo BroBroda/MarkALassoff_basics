@@ -2,15 +2,17 @@
 
 import UIKit
 
-//Wywoływanie funkcji:
+//Wywoływanie funkcji_18 september 2016
 
 func sayHello()
 {
 print("Witaj!")
 }
 
-sayGoodbye()
+
 sayHello()
+sayGoodbye()
+
 
 func sayGoodbye()
 {
@@ -59,13 +61,47 @@ print(randomInt(0, max: 10))
 func randomGreeting() -> String
 {
     var greetings = ["Witaj", "No yo", "Siema", "Dzień doberek", "Sto lat", "Uszanowanko", "Hej", "Cześć", "Hola"]
-    greetings.count
-    var greetingNumber = randomInt(0, max:8)
+    var greetingNumber = randomInt(0, max:greetings.count - 1)
     return greetings[greetingNumber]
 }
+//Wykorzystujemy funkcję randomInt jako indeks funkcji randomGreeeting
 
 print(randomGreeting())
 print(randomGreeting())
 print(randomGreeting())
+
+
+//Zasięg zmiennej
+
+var score = 1000
+let width = 10.55
+print("Zmienna na zewnątrz funkcji: \(score)")
+print("Stała na zewnątrz funkcji: \(width)")
+print()
+func myfunc()
+{
+    print("Zmienna wewnątrz funkcji: \(score)")
+    print("Stała wewnątrz funkcji: \(width)")
+    var funcVar = 55
+    print("Zmienna funcVar wewnątrz funkcji: \(funcVar)")
+}
+
+myfunc()
+/*  print("Zmienna funcVar wewnątrz funkcji: \(funcVar)")
+    Próba uzyskania dostępu do zmiennej funcVar  na zawnątrz funckji kończy się błędem
+    bo jest to zmienna O ZASIĘGU LOKALNYM   */
+
+
+func twoNumbers(numA: Int, numB: Int)
+{
+    print("\(numA)  \(numB)")
+}
+twoNumbers(4, numB: 9)
+
+
+
+
+
+
 
 
